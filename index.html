@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
+  <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+
+<header>
+  <div class="logo-nav-bar">
+  <div class="logo"><img src="images/logo.svg" alt=""></div>
+  <div class="top-nav">
+    <a href="#"> Features</a>
+    <a href="#"> Team</a>
+    <a href="#">Sign In</a>
+  </div>
+</div>
+<div class="top-section-with-illustration-image">
+  <div class="illustration-image-1"><img src="images/illustration-intro.png" alt=""></div>
+  <section >
+    <h1> All your files in one secure location, accessible anywhere.</h1>
+    <p >  Fylo stores all your most important files in one secure location. Access them wherever 
+  you need, share and collaborate with friends family, and co-workers.</p>
+  <a href="#" class="btn-top">  Get Started</a>
+  </section>
+</div>
+</header>
+<main>
+  <div class="features-section">
+    <div class="files-accessability">
+      <div class="feature-image"><img src="images/icon-access-anywhere.svg" alt=""></div>
+      <h3>Access your files, anywhere</h3>
+      <p class="features-para">  The ability to use a smartphone, tablet, or computer to access your account means your 
+  files follow you everywhere.</p>
+    </div>
+    <div class="files-security">
+      <div class="feature-image"><img src="images/icon-security.svg" alt=""></div>
+      <h3>Security you can trust</h3>
+      <p class="features-para">   2-factor authentication and user-controlled encryption are just a couple of the security 
+  features we allow to help secure your files. </p>
+    </div>
+    <div class="collaboration-files">
+      <div class="feature-image"><img src="images/icon-collaboration.svg" alt=""></div>
+      <h3>Real-time collaboration</h3>
+      <p class="features-para">  Securely share files and folders with friends, family and colleagues for live collaboration. 
+  No email attachments required. </p>
+    </div>
+
+    <div class="store-files">
+      <div class="feature-image"><img src="images/icon-any-file.svg" alt=""></div>
+      <h3>Store any type of file</h3>
+      <p class="features-para">   Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all 
+  file types to be securely stored and shared. </p>
+    </div>
+  </div>
+
+  <div class="stay-productive">
+    <div class="illustration-image-2"><img src="images/illustration-stay-productive.png" alt=""></div>
+    <section class="text-stay-productive">
+      <h1 class="stay-productive-heading">  Stay productive, wherever you are</h1>
+      <p class="stay-productive-para">  Never let location be an issue when accessing your files. Fylo has you covered for all of your file 
+  storage needs.</p>
+  <p class="stay-productive-para"> Securely share files and folders with friends, family and colleagues for live collaboration. No email 
+  attachments required.</p>
+<div> <p class="how-fylo-work">See how Fylo works <span><a href="#" class="arrow-image"><img src="images/icon-arrow.svg" alt=""></a></span></p></div> 
+    </section>
+  </div>
+
+  <div class="cards-section">
+    <div class="quotation-mark"><img src="images/bg-quotes.png" alt=""></div>
+    <div class="card">
+      <!-- card-1 -->
+      <div class="card-1">
+        <p class="card-para">  Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
+  become a well-oiled collaboration machine.</p>
+  <div class="profile-section">
+    <div class="profile-pic"><img src="images/profile-1.jpg" alt=""></div>
+    <div class="profile">
+      <h5> Satish Patel</h5>
+      <p class="profile-title">Founder & CEO, Huddle</p>
+    </div>
+  </div>
+      </div>
+      <!-- card-2 -->
+      <div class="card-2">
+        <p class="card-para">  Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
+  become a well-oiled collaboration machine.</p>
+  <div class="profile-section">
+    <div class="profile-pic"><img src="images/profile-2.jpg" alt=""></div>
+    <div class="profile">
+      <h5> Bruce McKenzie</h5>
+      <p class="profile-title">Founder & CEO, Huddle</p>
+    </div>
+  </div>
+      </div>
+ <!-- card-3 -->
+
+ <div class="card-3">
+  <p class="card-para">  Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
+become a well-oiled collaboration machine.</p>
+<div class="profile-section">
+<div class="profile-pic"><img src="images/profile-3.jpg" alt=""></div>
+<div class="profile">
+<h5> lva Boyd</h5>
+<p class="profile-title">Founder & CEO, Huddle</p>
+</div>
+</div>
+</div>
+<!-- end of cards  -->
+    </div>
+  </div>
+
+  <section class="early-access-section">
+    <h1> Get early access today</h1>
+    <p class="early-access-para">  It only takes a minute to sign up and our free starter tier is extremely generous. If you have any 
+  questions, our support team would be happy to help you.
+</p>
+<div class="input-field-with-button" id="stop-here">
+  <div class="input-with-btn">
+  <input type="text"  placeholder="email@example.com" id ="txtEmail">
+  <a href ="#stop-here" class="btn-bottom" onclick="checkEmail();">  Get Started For Free</a>
+  </div>
+  <div id="text"></div>
+</div>
+  </section>
+</main>
+ 
+ <footer>
+<div class="footer-top-section">
+    <div class="bottom-log">
+    <img src="images/logo.svg" alt="">
+  </div>
+
+  <div class="bottom-paragraph-section">
+  <div class="location"><img src="images/icon-location.svg" alt=""> <div class="bottom-paragraph">  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+  dolore magna aliqua</div></div>
+
+  <div class="contact-section">
+    <div class="svg-phone-icons-with-number"><img class="phone" src="images/icon-phone.svg" alt=""><span class="phone-no">  +1-543-123-4567</span></div>
+    <div ><img  class="email" src="images/icon-email.svg" alt=""><span class="email-address">example@fylo.com</span></div>
+  </div>
+  </div>
+</div>
+
+<div class="nav-items">
+    <div class="bottom-nav-bar">
+    <a href="#"> About Us</a>
+    <a href="#"> Jobs</a>
+    <a href="#"> Press</a>
+    <a href="#"> Blog</a>
+    <a href="#" class="contact">Contact Us</a>
+    <a href="#">  Terms</a>
+    <a href="#">Privacy</a>
+  </div>
+</div>
+
+
+  <div class="social-media-icons">
+    <div><a href="#" >
+
+<svg  class="fb" x="0px" y="0px" viewBox="0 0 39.9 39">
+ <g id="XMLID_2080_">
+	<path id="XMLID_2082_" fill="none"  stroke-width="1.5" stroke-miterlimit="10" d="M20,38.6L20,38.6
+		c-10.5,0-19-8.5-19-19v0C1,9,9.5,0.5,20,0.5h0c10.5,0,19,8.5,19,19v0C39,30,30.5,38.6,20,38.6z"/>
+	<path id="XMLID_2081_"  d="M17.1,31h4.6V19.4H25l0.3-3.9h-3.6c0,0,0-1.5,0-2.2c0-0.9,0.2-1.3,1.1-1.3
+		c0.7,0,2.5,0,2.5,0V8c0,0-2.6,0-3.2,0c-3.4,0-5,1.5-5,4.4c0,2.5,0,3.1,0,3.1h-2.4v3.9h2.4V31z"/>
+</g>
+</svg>
+
+    </a></div>
+    <div class="twitter-svg"><a href="#" >
+<svg  class="twitter" x="0px" y="0px" viewBox="0 0 42.5 42.5" >
+<g id="XMLID_2111_">
+	<path id="XMLID_2113_" fill="none"  stroke-width="1.5" stroke-miterlimit="10" d="M22.1,41.6L22.1,41.6
+		c-10.5,0-19-8.5-19-19v0c0-10.5,8.5-19,19-19l0,0c10.5,0,19,8.5,19,19v0C41.2,33,32.7,41.6,22.1,41.6z"/>
+	<path id="XMLID_2112_"  d="M12,28.9c1.8,1.2,4,1.9,6.4,1.9c7.7,0,12.1-6.5,11.8-12.4c0.8-0.6,1.5-1.3,2.1-2.2
+		c-0.7,0.3-1.5,0.6-2.4,0.7c0.9-0.5,1.5-1.3,1.8-2.3c-0.8,0.5-1.7,0.8-2.6,1c-0.8-0.8-1.8-1.3-3-1.3c-2.7,0-4.7,2.5-4.1,5.1
+		c-3.5-0.2-6.5-1.8-8.6-4.3c-1.1,1.9-0.6,4.3,1.3,5.6c-0.7,0-1.3-0.2-1.9-0.5c0,1.9,1.3,3.7,3.3,4.1c-0.6,0.2-1.2,0.2-1.9,0.1
+		c0.5,1.7,2.1,2.9,3.9,2.9C16.4,28.6,14.2,29.2,12,28.9z"/>
+</g>
+</svg>
+    </a></div>
+    <div><a href="#" >
+<svg class="instagram" x="0px" y="0px"
+	 viewBox="0 0 41.6 42.1">
+<g id="XMLID_2023_">
+	<path id="XMLID_2079_" fill="none"  stroke-width="1.5" stroke-miterlimit="10" d="M20.8,40.2L20.8,40.2
+		c-10.5,0-19-8.5-19-19v0c0-10.5,8.5-19,19-19l0,0c10.5,0,19,8.5,19,19v0C39.8,31.7,31.3,40.2,20.8,40.2z"/>
+	<g id="XMLID_2024_">
+		<path id="XMLID_2076_"  d="M20.8,12.6c2.8,0,3.1,0,4.2,0.1c1,0,1.6,0.2,1.9,0.4c0.5,0.2,0.8,0.4,1.2,0.8
+			c0.4,0.4,0.6,0.7,0.8,1.2c0.1,0.4,0.3,0.9,0.4,1.9c0,1.1,0.1,1.4,0.1,4.2s0,3.1-0.1,4.2c0,1-0.2,1.6-0.4,1.9
+			c-0.2,0.5-0.4,0.8-0.8,1.2c-0.4,0.4-0.7,0.6-1.2,0.8c-0.4,0.1-0.9,0.3-1.9,0.4c-1.1,0.1-1.4,0.1-4.2,0.1s-3.1,0-4.2-0.1
+			c-1,0-1.6-0.2-1.9-0.4c-0.5-0.2-0.8-0.4-1.2-0.8c-0.4-0.4-0.6-0.7-0.8-1.2c-0.1-0.4-0.3-0.9-0.4-1.9c-0.1-1.1-0.1-1.4-0.1-4.2
+			s0-3.1,0.1-4.2c0-1,0.2-1.6,0.4-1.9c0.2-0.5,0.4-0.8,0.8-1.2c0.4-0.4,0.7-0.6,1.2-0.8c0.4-0.1,0.9-0.3,1.9-0.4
+			C17.7,12.6,18,12.6,20.8,12.6 M20.8,10.7c-2.8,0-3.2,0-4.3,0.1c-1.1,0.1-1.9,0.2-2.5,0.5c-0.7,0.3-1.3,0.6-1.8,1.2
+			c-0.6,0.6-0.9,1.2-1.2,1.8c-0.3,0.7-0.4,1.4-0.5,2.5c-0.1,1.1-0.1,1.5-0.1,4.3c0,2.8,0,3.2,0.1,4.3c0.1,1.1,0.2,1.9,0.5,2.5
+			c0.3,0.7,0.6,1.3,1.2,1.8c0.6,0.6,1.2,0.9,1.8,1.2c0.7,0.3,1.4,0.4,2.5,0.5c1.1,0.1,1.5,0.1,4.3,0.1c2.8,0,3.2,0,4.3-0.1
+			c1.1-0.1,1.9-0.2,2.5-0.5c0.7-0.3,1.3-0.6,1.8-1.2c0.6-0.6,0.9-1.2,1.2-1.8c0.3-0.7,0.4-1.4,0.5-2.5c0.1-1.1,0.1-1.5,0.1-4.3
+			c0-2.8,0-3.2-0.1-4.3c-0.1-1.1-0.2-1.9-0.5-2.5c-0.3-0.7-0.6-1.3-1.2-1.8c-0.6-0.6-1.2-0.9-1.8-1.2c-0.7-0.3-1.4-0.4-2.5-0.5
+			C24,10.7,23.6,10.7,20.8,10.7"/>
+		<path id="XMLID_2073_"  d="M20.8,15.8c-3,0-5.4,2.4-5.4,5.4c0,3,2.4,5.4,5.4,5.4c3,0,5.4-2.4,5.4-5.4
+			C26.1,18.2,23.7,15.8,20.8,15.8 M20.8,24.6c-1.9,0-3.5-1.6-3.5-3.5c0-1.9,1.6-3.5,3.5-3.5s3.5,1.6,3.5,3.5
+			C24.3,23.1,22.7,24.6,20.8,24.6"/>
+		<path id="XMLID_2025_"  d="M27.6,15.6c0,0.7-0.6,1.3-1.3,1.3c-0.7,0-1.3-0.6-1.3-1.3c0-0.7,0.6-1.3,1.3-1.3
+			C27,14.3,27.6,14.9,27.6,15.6"/>
+	</g>
+</g>
+</svg>
+    </a></div>
+  </div>
+ </footer>
+ <script src="emailValidation.js"></script>
+</body>
+</html>
